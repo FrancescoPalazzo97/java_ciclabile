@@ -9,6 +9,7 @@ public class Main {
 
         IntList list1 = new IntList(arr1);
         IntList list2 = new IntList(arr2);
+        IntList list3 = new IntList();
 
         list1.addNewInt(50);
 
@@ -22,6 +23,13 @@ public class Main {
         IO.println("------List 2------");
         while (list2.hasNext()) {
             IO.println(list2.getNext());
+        }
+
+        list3.addNewInt(1);
+
+        IO.println("------List 3------");
+        while (list3.hasNext()) {
+            IO.println(list3.getNext());
         }
     }
 }
